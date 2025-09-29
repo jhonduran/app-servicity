@@ -13,16 +13,25 @@ Este proyecto forma parte de un sistema que busca digitalizar la administración
 ## 📂 Estructura del proyecto
 
 app-servicity/
-├── app/ # Código fuente principal
-│ ├── src/
-│ │ ├── main/java # Lógica de la aplicación
-│ │ ├── main/resources # Configuración y recursos
-│ │ └── test # Pruebas unitarias
-├── gradle/ # Configuración de Gradle
-├── build.gradle.kts # Configuración del proyecto
-├── settings.gradle.kts # Ajustes de módulos
-├── gradlew / gradlew.bat # Ejecutables de Gradle Wrapper
-└── .gitignore
+ app/ # Código fuente principal
+ 
+ src/
+ 
+ main/java # Lógica de la aplicación
+
+ main/resources # Configuración y recursos
+
+ test # Pruebas unitarias
+
+ gradle/ # Configuración de Gradle
+
+ build.gradle.kts # Configuración del proyecto
+
+ settings.gradle.kts # Ajustes de módulos
+
+ gradlew / gradlew.bat # Ejecutables de Gradle Wrapper
+
+  ## .gitignore
 
 ## ⚙️ Instalación y ejecución
 
@@ -72,8 +81,8 @@ Sube la rama (git push origin feature/nueva-funcionalidad)
 
 Abre un Pull Request
 
-##📄 Licencia
+📄 Licencia
 
 Este proyecto se distribuye bajo la licencia MIT.
-Consulta el archivo LICENSE
+Consulta el archivo de licencia en [LICENSE](LICENSE)
  para más detalles.
